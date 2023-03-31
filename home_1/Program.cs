@@ -7,10 +7,12 @@ namespace HomeApp
         static void Main(string[] args)
         {
             Console.WriteLine("Введите ваше имя");
-            string user = Console.ReadLine();//ввод имени пользователя
-            Console.WriteLine("Hello " + user +"!");
+            string name = Console.ReadLine();//ввод имени 
+            Console.WriteLine("Введите вашу фамилию");//ввод фамилии
+            string surname = Console.ReadLine();
+            Console.WriteLine("Hello " + name + " " + surname + "!");
             Console.WriteLine("Для закрытия окна нажмите любую клавишу");
-            Console.ReadKey();//ожмдание нажатия люой кнопки
+            Console.ReadKey();//ожмдание нажатия любой кнопки
         }
     }
 }
