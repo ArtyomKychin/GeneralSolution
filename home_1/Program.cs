@@ -13,6 +13,7 @@ namespace HomeApp
             Console.WriteLine("Hello " + name + " " + surname + "!");
             Console.WriteLine("Для закрытия окна нажмите любую клавишу");
             Console.ReadKey();//ожмдание нажатия любой кнопки
+            //ДЗ на проверку
         }
     }
 }
