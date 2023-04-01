@@ -5,6 +5,7 @@ namespace HomeApp
     internal class Program
     {
         static void Main(string[] args)
+
         {
             Task1();
             Task2();
@@ -12,8 +13,8 @@ namespace HomeApp
             Task4();
         }
         public static void Task1()
-        {
 
+        {
 
             Console.WriteLine("Please, enter number 1");
             double operand1 = Convert.ToInt16(Console.ReadLine());
@@ -67,7 +68,6 @@ namespace HomeApp
 
                         break;
                     }
-
 
             }
 
