@@ -5,7 +5,6 @@ namespace HomeApp
     internal class Program
     {
         static void Main(string[] args)
-
         {
             Task1();
             Task2();
@@ -13,49 +12,37 @@ namespace HomeApp
             Task4();
         }
         public static void Task1()
-
         {
-
             Console.WriteLine("Please, enter number 1");
             double operand1 = Convert.ToInt16(Console.ReadLine());
-
             Console.WriteLine("Please, enter number 2");
             double operand2 = Convert.ToInt16(Console.ReadLine());
-
             Console.WriteLine("Please, enter the desired arithmetic operation\nThe following actions are available: + , - , * , / ");
             string sign = Convert.ToString(Console.ReadLine());
-
             if (sign != "+" && sign != "-" && sign != "*" && sign != "/")//validation of signs of arithmetic operations
             {
                 Console.WriteLine("Please use the correct arithmetic symbol\nThe following actions are available: + , - , * , / ");
-
             }
-
             switch (sign)
             {
                 case "+":
                     {
                         double result = operand1 + operand2;
-
                         Console.WriteLine("The sum = " + result);
                         break;
                     }
-
-                case "-":
+               case "-":
                     {
                         double result = operand1 - operand2;
-
                         Console.WriteLine("The difference = " + result);
                         break;
                     }
-
-                case "*":
+               case "*":
                     {
                         double result = operand1 * operand2;
                         Console.WriteLine("The multiplication result = " + result);
                         break;
                     }
-
                 case "/":
                     {
                         if (operand2 == 0)
@@ -65,20 +52,15 @@ namespace HomeApp
                             double result = operand1 / operand2;
                             Console.WriteLine("The quotient = " + result);
                         }
-
                         break;
                     }
-
             }
-
         }
         public static void Task2()
-
         {
         start:
             Console.WriteLine("Please, enter number in range 0-100");
             int number = Convert.ToInt16(Console.ReadLine());
-
             if (number >= 0 & number <= 100)
             {
                 if (number >= 0 & number <= 14)
@@ -101,21 +83,16 @@ namespace HomeApp
             else
             {
                 Console.WriteLine("Your number is not included in the specified range");
-
             }
             goto start;
-
-
         }
 
         public static void Task3()
-
         {
         start:
             Console.WriteLine("Enter a word that characterizes the weather in Russian");
             Console.WriteLine("The following words are available for translation:\nветренно, солнечно, дождливо, снег, облачно, жарко, холодно, сыро, сухо, штиль");
             string word = Convert.ToString(Console.ReadLine());
-
             switch (word)
             {
                 case "ветренно":
@@ -153,18 +130,11 @@ namespace HomeApp
                     break;
             }
             goto start;
-
-
-
-
         }
-
         public static void Task4()
-
         {
         start:
             Console.WriteLine("Please enter a number");
-
             int number = Convert.ToInt32(Console.ReadLine());
             if (number % 2 == 0)
             {
@@ -175,8 +145,6 @@ namespace HomeApp
                 Console.WriteLine("your number is odd");
             }
             goto start;
-
         }
-
     }
 }
