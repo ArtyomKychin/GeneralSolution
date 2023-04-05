@@ -5,11 +5,7 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "home_1", "home_1\home_1.csproj", "{E03B9051-4C62-4A8B-BF51-FB89C29B2F57}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Home2", "Home2\Home2.csproj", "{BE7299CE-D737-4F50-A824-2A03FFE360CA}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cykles", "C:\Users\Tyom\source\repos\Cykles\Cykles\Cykles.csproj", "{C81D4B29-A8B4-4DF0-931A-E25788F7E052}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppIF_Else", "C:\Users\Tyom\source\repos\ConsoleAppIF_Else\ConsoleAppIF_Else\ConsoleAppIF_Else.csproj", "{C21C6526-F171-4FE9-B290-78054B1F7CC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "home_2", "Home2\home_2.csproj", "{BE7299CE-D737-4F50-A824-2A03FFE360CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +21,6 @@ Global
 		{BE7299CE-D737-4F50-A824-2A03FFE360CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE7299CE-D737-4F50-A824-2A03FFE360CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE7299CE-D737-4F50-A824-2A03FFE360CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C81D4B29-A8B4-4DF0-931A-E25788F7E052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C81D4B29-A8B4-4DF0-931A-E25788F7E052}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C81D4B29-A8B4-4DF0-931A-E25788F7E052}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C81D4B29-A8B4-4DF0-931A-E25788F7E052}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C21C6526-F171-4FE9-B290-78054B1F7CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C21C6526-F171-4FE9-B290-78054B1F7CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C21C6526-F171-4FE9-B290-78054B1F7CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C21C6526-F171-4FE9-B290-78054B1F7CC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
