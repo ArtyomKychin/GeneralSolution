@@ -78,11 +78,11 @@ namespace HomeApp
         {
             Console.WriteLine("Enter a sentece 1:");
             string string1 = Console.ReadLine();
-            string[] sentence1 = string1.Split(' ');
+            string[] sentence1 = string1.Split(" ");
 
             Console.WriteLine("Enter a sentece 2:");
             string string2 = Console.ReadLine();
-            string[] sentence2 = string2.Split(' ');
+            string[] sentence2 = string2.Split(" ");
             int occurrence = 0;
             for (int i = 0; i < sentence1.Length; i++)
             {
