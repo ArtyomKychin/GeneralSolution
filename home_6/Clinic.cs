@@ -8,7 +8,6 @@ namespace home_6
 {
     internal class Clinic
     {
-
         public virtual Doctor AppointmentDoctor(Patient patient)
 
         {
