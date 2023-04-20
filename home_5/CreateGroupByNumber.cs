@@ -6,14 +6,7 @@ using System.Threading.Tasks;
 
 namespace home_5
 {
-    public class BestMathMark
+    internal class CreateGroupByNumber
     {
-                
-        public void BestMathMarkCalculation(int mathMark)
-        {
-            ///???
-        }
-
-
     }
 }

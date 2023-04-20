@@ -13,10 +13,12 @@ namespace home_5
         public string Group { get; set; }
         public int Age { get; set; }
         public int MathMark { get; set; }
-        public int PhysicalEducationlMark { get; set; }
+        public int PhysicalEducationMark { get; set; }
         public int BiologyMark { get; set; }
         public int Reward { get; set; }
-       // public int BestMathMark { get; set; }
+
+        public Student() { }
+
         public Student
             (
             int id,
@@ -27,7 +29,6 @@ namespace home_5
             int physicalEducationMark,
             int biologyMark,
             int reward
-            //int bestMathMark
             )
 
         {
@@ -36,11 +37,9 @@ namespace home_5
             Age = age;
             Group = group;
             MathMark = mathMark;
-            PhysicalEducationlMark = physicalEducationMark;
+            PhysicalEducationMark = physicalEducationMark;
             BiologyMark = biologyMark;
             Reward = reward;
-            //BestMathMark = bestMathMark;
- 
         }
 
     }
