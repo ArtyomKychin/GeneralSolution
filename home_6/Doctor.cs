@@ -17,7 +17,6 @@ namespace home_6
 
     class Ophthalmologist : Doctor
     {
-
         public Ophthalmologist()
         {
             Specialization = Specialization.Ophthalmologist;
@@ -41,7 +40,6 @@ namespace home_6
 
     class Dentist : Doctor
     {
-
         public Dentist()
         {
             Specialization = Specialization.Dentist;
@@ -61,13 +59,11 @@ namespace home_6
                 Console.WriteLine("Is ill");
             }
         }
-
     }
 
 
     class Therapist : Doctor
     {
-
         public Therapist()
         {
             Specialization = Specialization.Therapist;
@@ -87,7 +83,5 @@ namespace home_6
                 Console.WriteLine("Is ill");
             }
         }
-
     }
-
 }

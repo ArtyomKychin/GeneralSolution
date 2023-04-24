@@ -29,7 +29,6 @@ namespace home_6 // Note: actual namespace depends on the project name.
             Console.WriteLine($"Patient: {patient3.Name}, Ilness Type: {patient3.IlnessType }, Doctor Appointed: {doctor3.Specialization}");
             doctor3.Treat(patient3);
             Console.WriteLine(new String('=', 50));
-
         }
     }
 }
