@@ -8,7 +8,6 @@ namespace home_7
         {  
             Restourant mcDonalds = new Restourant();
             mcDonalds.Working();
-
         }
     }
 }

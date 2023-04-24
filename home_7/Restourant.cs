@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace home_7
 {
     public class Restourant
-
     {
         public void Working()
         {
@@ -34,7 +33,6 @@ namespace home_7
             Console.WriteLine(new String('-', 30));
             Console.WriteLine("Thanks for visiting! Come again!");
             Console.WriteLine(new String('*', 30));
-
         }
 
         private static void Greetings(Cleaner cleanerBob, Cook cookJhon, Manager managerMary)
